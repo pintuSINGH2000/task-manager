@@ -1,0 +1,23 @@
+.loaderContainer {
+    height: 10vh;
+    overflow: hidden;
+  }
+  
+  .loaderBar {
+    width: 50%;
+    height: 4px;
+    background: linear-gradient(to right, #4a90e2, #50e3c2);
+    animation: load 1.5s infinite;
+  }
+  
+  @keyframes load {
+    0% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }

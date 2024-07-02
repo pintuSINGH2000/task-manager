@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  overflow: hidden;
+}
+
+.analytic {
+  width: 80vw;
+  flex: 5;
+  padding: 40px 0px;
+  height: 100vh;
+}
+
+.header {
+  font-size: 22px;
+  line-height: 29.96px;
+  margin-bottom: 40px;
+  padding-left: 40px;
+}
+
+.analyticData {
+  display: flex;
+  gap: 10px;
+  padding-left: 40px;
+}
+
+.card {
+  background-color: rgba(249, 252, 255, 1);
+  border-radius: 12px;
+  width: 475px;
+  height: 290px;
+  padding: 40px 40px 30px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 24.51px;
+}
+
+.listDot {
+  background-color: rgba(144, 196, 204, 1);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.data {
+  font-size: 20px;
+  line-height: 27.24px;
+}
+
+
+@keyframes gradientMove {
+  0% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: -200% -200%;
+  }
+}
+
+.animatedBackground {
+  background: linear-gradient(
+    to bottom right,
+    #eff1f3 4%,
+    #ffffff 18%,
+    #eff1f3 26%
+  );
+  background-size: 500% 500%;
+  /* animation: gradientMove 1s infinite linear; */
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: gradientMove;
+  animation-timing-function: linear;
+  background-color: rgba(249, 252, 255, 1);
+}

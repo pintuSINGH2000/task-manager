@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+.ant-tooltip-inner {
+  background-color: white !important;
+  color: black !important;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 16px;
+  overflow: auto;
+  max-height: 200px;
+  border-radius: 10px;
+  scrollbar-width: thin;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.infinite-scroll-component__outerdiv {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.infinite-scroll-component {
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.active {
+  background: rgba(67, 145, 237, 0.1) !important;
+  color: rgba(0, 0, 0, 1) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.open-sans-400 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400 !important;
+}
+.open-sans-600 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600 !important;
+}
+
+.noto-sans-600 {
+  font-family: "Noto Sans", sans-serif;;
+  font-weight: 600 !important;
+}
+
+.poppins-700 {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.poppins-600 {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+}
+.poppins-500 {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500 !important;
+}
+
+.poppins-400 {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.inter-400 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400 !important;
+}
+
+.inter-500 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500 !important;
+}
+
+
+.font-14 {
+  font-size: 14px !important;
+}
+
+.flexbox-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexbox-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.border-none {
+  border: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+.bg-white {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.white {
+  color: rgba(255, 255, 255, 1);
+}
+
+.light-black {
+  color: rgba(71, 68, 68, 1);
+}
+
+.border-radius-primary {
+  border-radius: 10px;
+}
+
+.justify-content-center {
+  justify-content: center;
 }

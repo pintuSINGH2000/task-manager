@@ -1,0 +1,149 @@
+.card {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  width: 312px;
+  padding: 20px;
+  margin: 16px 25px;
+}
+
+
+.priority {
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(112, 112, 112, 1);
+}
+
+.circle {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+.emailInitial {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgba(255, 235, 235, 1);
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  margin-right: 25px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 7px;
+  letter-spacing: 0.5px;
+}
+.menuIcon {
+  font-size: 24px;
+}
+
+.taskTitle {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+  line-height: 27px;
+  margin: 8px 0px;
+  width: 75%;
+}
+
+.checkList {
+  color: rgba(0, 0, 0, 1);
+}
+
+.checkListIcon {
+  color: rgba(118, 117, 117, 1);
+  padding: 3.2px;
+  cursor: pointer;
+}
+
+.checkListIcons {
+  font-size: 24px;
+  background-color: rgba(238, 236, 236, 1);
+  width: 24px;
+  height: 24px;
+  border-radius: 3.2px;
+  color: rgba(238, 236, 236, 1);
+}
+
+.inputContinaer {
+  border: 1px solid rgba(226, 226, 226, 1);
+  border-radius: 12px;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+}
+
+.checkbox[type="checkbox"]:checked {
+  background-color: rgba(23, 162, 184, 1);
+  border: 2px solid rgba(23, 162, 184, 1);
+}
+.checkbox[type="checkbox"]:checked:after {
+  content: "\2713";
+  color: white;
+}
+.checkbox[type="checkbox"] {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px !important;
+  height: 20px !important;
+  appearance: none;
+  border-radius: 6px;
+  border: 2px solid rgba(226, 226, 226, 1);
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.listItem{
+   word-break: break-all;
+}
+.cardbtns {
+  margin-top: 20px;
+}
+
+.datebtn {
+  background-color: rgba(219, 219, 219, 1) !important;
+  text-transform: none !important;
+}
+
+.btns {
+  display: flex;
+  gap: 6px;
+}
+.btn {
+  background-color: rgba(238, 236, 236, 1);
+  color: rgba(118, 117, 117, 1);
+  font-size: 8px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.passDue {
+  background-color: rgba(207, 54, 54, 1) !important;
+  color: rgba(255, 255, 255, 1) !important;
+}
+.done {
+  background-color: rgba(99, 192, 91, 1) !important;
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.menu {
+  width: 151px;
+  position: absolute;
+  box-shadow: 0px 2px 22px 0px rgba(126, 122, 122, 0.25);
+  font-size: 14px;
+  line-height: 21px;
+  top: 54%;
+  right: -7%;
+  border-radius: 12px;
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+}
+
+.menuItem {
+  position: relative;
+}

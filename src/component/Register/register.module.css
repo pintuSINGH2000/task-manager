@@ -1,0 +1,92 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 4vw 3vw 2vw 0;
+    width: 40vw;
+    height: 100vh;
+    gap: 22px;
+}
+
+.title{
+    font-size: 33.08px;
+    line-height: 45.04px;
+    text-align: left;
+    color: rgba(52, 52, 52, 1);
+    padding-bottom: 44px;
+
+}
+.main{
+    width: 100%;
+    flex-direction: column;
+}
+.inputContinaer{
+    border: 1.38px solid rgba(208, 208, 208, 1);
+    border-radius: 11px;
+    padding: 5px 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    border: none;
+    font-size: 19px;
+    width: 85%;
+    padding: 5px 10px;
+    font-size:19.29px;
+    line-height: 26.28px;
+}
+
+.input::placeholder{
+    font-size:19.29px;
+    line-height: 26.28px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    color:  rgba(130, 130, 130, 1)
+}
+
+.input:focus{
+    outline: none;
+}
+
+.btn{
+    font-size: 19px;
+    width: 80%;
+    line-height: 26px;
+    padding: 10px;
+    border-radius: 55px;
+    margin: 11px 0px;
+}
+
+.mainbtn{
+    background-color: rgba(23, 162, 184, 1);
+    margin-top: 22px;
+}
+
+.normal{
+    border: 1.38px solid rgba(23, 162, 184, 1);
+    color: rgba(23, 162, 184, 1);
+}
+
+.footer{
+    width: 100%;
+    flex-direction: column;
+    gap: 12px;
+    margin: 11px;
+}
+
+.footertxt{
+    color: rgba(130, 130, 130, 1);
+}
+
+.error{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    width: 78%;
+    margin: 7px 0px 0px 0px;
+    color: rgba(219, 55, 31, 1);
+}

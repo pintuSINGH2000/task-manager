@@ -1,0 +1,41 @@
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.auth{
+    width: 60vw;
+    background-color:rgba(23, 162, 184, 1);
+    flex-direction: column;
+    height: 100vh;
+}
+
+.outer{
+    position: relative;
+    flex-direction: column;
+}
+
+.circle{
+    width: 304px;
+    height: 304px;
+    border-radius: 50%;
+    background-color: rgba(49, 127, 139, 1);
+    position: absolute;
+    top: -8%;
+    left: 16%;
+}
+
+.img{
+    z-index: 1;
+}
+.h1{
+    font-size: 33.08px;
+    line-height: 66.15px;
+    padding-top: 40px;
+}
+
+.h2{
+    font-size: 19.29px;
+    line-height: 38.59px;
+}
